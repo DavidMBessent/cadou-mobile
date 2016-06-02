@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cadou.HelloWorld">
+  <ContentPage.Content>
+    <ContentView>
+      <StackLayout>
+        <Label Text="Hello World!" VerticalOptions="Center" HorizontalOptions="Center" FontSize="16" />
+        <Label Text="Here is the start of what will likely be several nights of drunken programming." VerticalOptions="Center" HorizontalOptions="Center" FontSize="16" />
+      </StackLayout>
+    </ContentView>
+  </ContentPage.Content>
+</ContentPage>
