@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace Cadou.iOS
 {
@@ -24,6 +25,8 @@ namespace Cadou.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            CurrentPlatform.Init();
 
             return base.FinishedLaunching(app, options);
         }
