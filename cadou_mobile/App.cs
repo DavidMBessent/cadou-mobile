@@ -1,5 +1,5 @@
 ﻿using System;
-
+using cadou_mobile.Views;
 using Xamarin.Forms;
 
 namespace cadou_mobile
@@ -9,7 +9,7 @@ namespace cadou_mobile
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new TodoList();
+			MainPage = new NavigationPage(new MainPage());
 		}
 
 		protected override void OnStart ()
